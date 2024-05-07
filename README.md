@@ -14,7 +14,7 @@
 
 ![Post desc Usuario](https://github.com/zBragaTo/todosimple-api/assets/88748520/b6c3da61-e2a2-4c6f-91c7-b6ae679f4b73)
 
-# Buscando Descrição do Usuário (POST)
+# Buscando Descrição do Usuário (GET)
 
 ![get desc usuario](https://github.com/zBragaTo/todosimple-api/assets/88748520/dc6d6ac1-947f-48ae-aed7-85f062ddd605)
 
@@ -22,7 +22,7 @@
 
 ![post mais uma desc](https://github.com/zBragaTo/todosimple-api/assets/88748520/8256e0ae-b2ff-46c1-a663-d3a0c8cba123)
 
-# Buscando Todas Descrições do Usuário (POST)
+# Buscando Todas Descrições do Usuário (GET)
 
 ![get todas desc de 1 usuario](https://github.com/zBragaTo/todosimple-api/assets/88748520/e2429938-1825-4f2e-950a-d2cbf992e81d)
 
