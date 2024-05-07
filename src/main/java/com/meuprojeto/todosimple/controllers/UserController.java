@@ -23,7 +23,7 @@ import com.meuprojeto.todosimple.models.User.UpdateUser;
 import com.meuprojeto.todosimple.services.UserService;
 
 @RestController
-@RequestMapping("/user/")
+@RequestMapping("/user")
 public class UserController {
 
 	@Autowired
