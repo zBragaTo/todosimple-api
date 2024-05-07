@@ -27,10 +27,10 @@ public class TaskService {
 				() -> new RuntimeException("Tarefa não encontrada!" + id + ", Tipo: " + Task.class.getName()));
 	}
 	
-	public List<Task> findAllByUserId(Long userId){
-		List<Task> tasks = this.taskrepository.findByUser_Id(userId);
-		return tasks;
-	}
+	public List<Task> findAllByUserId(Long userId) {
+        List<Task> tasks = this.taskrepository.findByUser_Id(userId);
+        return tasks;
+    }
 
 	@Transactional
 	public Task create(Task obj) {
