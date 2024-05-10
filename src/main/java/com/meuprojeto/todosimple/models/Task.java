@@ -12,9 +12,22 @@ import javax.validation.constraints.NotEmpty;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
+import lombok.AllArgsConstructor;
+import lombok.EqualsAndHashCode;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+
 @Entity
 @Table(name = Task.TABLE_NAME)
+@AllArgsConstructor
+@NoArgsConstructor
+@Getter
+@Setter
+@EqualsAndHashCode
 public class Task {
+
 	public static final String TABLE_NAME = "task";
 	
 	@Id
@@ -31,40 +44,5 @@ public class Task {
 	@NotEmpty
 	@Size(min = 1, max = 255)
 	private String description;
-	
-	public Task() {
-		
-	}
-
-	public Task(long id, User user, String description) {
-		this.id = id;
-		this.user = user;
-		this.description = description;
-	}
-
-	public long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public User getUser() {
-		return user;
-	}
-
-	public void setUser(User user) {
-		this.user = user;
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setDescription(String description) {
-		this.description = description;
-	}
-	
 	
 }
